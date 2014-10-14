@@ -7,7 +7,8 @@ file -- *
 bandit5:koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 du -ah -b | grep 1033
 bandit6:DXjZPULLxYr17uwoI01bNLQbtFemEgo7
-bandit7:
+find /  -user bandit6 -o -user bandit7 
+bandit7:HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 bandit8:
 bandit9:
 bandit10:
