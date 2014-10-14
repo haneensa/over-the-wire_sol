@@ -5,6 +5,7 @@ bandit3:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 bandit4:pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 file -- *
 bandit5:koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+du -ah -b | grep 1033
 bandit6:DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 bandit7:
 bandit8:
