@@ -9,6 +9,7 @@ du -ah -b | grep 1033
 bandit6:DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 find /  -user bandit6 -o -user bandit7 -size 33c
 bandit7:HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
-bandit8:
+grep millionth data.txt
+bandit8:cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 bandit9:
 bandit10:
