@@ -11,5 +11,6 @@ find /  -user bandit6 -o -user bandit7 -size 33c
 bandit7:HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 grep millionth data.txt
 bandit8:cvX2JJa4CFALtqS87jk27qwqGhBM9plV
-bandit9:
+sort data.txt | uniq -c | grep "1 "
+bandit9:UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 bandit10:
