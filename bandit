@@ -26,3 +26,5 @@ tar -xvf data
 file data
 Q: how to automate this?
 bandit13:8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+ssh -i sshkey.private -l bandit14 localhost
+bandit14:4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
