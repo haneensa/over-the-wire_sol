@@ -19,3 +19,10 @@ base64 -d data.txt
 bandit11:IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 cat data.txt | tr a-zA-Z n-za-mN-ZA-M
 bandit12:5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+xxd -r data.txt
+gunzip data.gz
+bunzip2 data
+tar -xvf data
+file data
+Q: how to automate this?
+bandit13:8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
