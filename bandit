@@ -13,4 +13,6 @@ grep millionth data.txt
 bandit8:cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 sort data.txt | uniq -c | grep "1 "
 bandit9:UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
-bandit10:
+strings data.txt | grep "="
+bandit10:truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
