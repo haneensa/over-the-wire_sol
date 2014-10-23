@@ -30,3 +30,4 @@ ssh -i sshkey.private -l bandit14 localhost
 bandit14:4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" | nc localhost 30000
 bandit15:BfMYroe26WYalil77FoDi9qh59eK5xNr
+bandit16: cluFn7wTiGryunymYOu4RcffSxQluehd
