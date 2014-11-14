@@ -32,10 +32,13 @@ echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" | nc localhost 30000
 bandit15:BfMYroe26WYalil77FoDi9qh59eK5xNr
 echo "BfMYroe26WYalil77FoDi9qh59eK5xNr" | openssl s_client -connect localhost:30001 -quiet
 bandit16: cluFn7wTiGryunymYOu4RcffSxQluehd
-nmap -p 31000-32000 localhost 
+nmap -A -T4 -p 31000-32000 localhost
 ->outpot: PORT      STATE SERVICE
-31046/tcp open  unknown
-31518/tcp open  unknown
-31691/tcp open  unknown
-31790/tcp open  unknown
-31960/tcp open  unknown
+PORT      STATE SERVICE VERSION
+31046/tcp open  echo
+31518/tcp open  msdtc   Microsoft Distributed Transaction Coordinator (error)
+31691/tcp open  echo
+31790/tcp open  msdtc   Microsoft Distributed Transaction Coordinator (error)
+31960/tcp open  echo
+Service Info: OS: Windows
+
