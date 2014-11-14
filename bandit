@@ -46,9 +46,14 @@ Service Info: OS: Windows
 * This gives two ports that can be tested
 $ echo "cluFn7wTiGryunymYOu4RcffSxQluehd" | openssl s_client -connect localhost:31518 -quiet
 $ echo "cluFn7wTiGryunymYOu4RcffSxQluehd" | openssl s_client -connect localhost:31790 -quiet
+one of them returns private key, save this 
+$ mkdir -p /tmp/key/
+$ cd /tmp/key/
+$ touch sshkey.private
+$ vim sshkey.private
+$ ssh -i ./sshkey.private bandit17@localhost
 
-one of them returns private key:
-----------------------------------------------------------------
+bandit17:
 -----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
 imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
@@ -75,6 +80,5 @@ YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
 dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
 vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 -----END RSA PRIVATE KEY-----
--------------------------------------------------------------------
 
-
+bandit18:
